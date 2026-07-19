@@ -1,12 +1,7 @@
 {
-  "recommendations": [
-    "biomejs.biome",
-    "DavidAnson.vscode-markdownlint",
-    "yzhang.markdown-all-in-one",
-    "ban.spellright",
-    "stripe.vscode-stripe",
-    "Prisma.prisma",
-    "rebornix.project-snippets",
-    "inlang.vs-code-extension"
-  ]
+    "recommendations": [
+        "myml.vscode-markdown-plantuml-preview",
+        "esbenp.prettier-vscode",
+        "jebbs.plantuml"
+    ]
 }
