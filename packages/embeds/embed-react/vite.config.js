@@ -3,6 +3,10 @@ import path from "node:path"
 import { defineConfig } from "vite";
 
 import viteBaseConfig from "../vite.config";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 const useClientBanner = '"use client";';
 // https://vitejs.dev/config/
 export default defineConfig({
