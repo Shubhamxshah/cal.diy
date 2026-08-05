@@ -2,6 +2,9 @@ import basicSsl from "@vitejs/plugin-basic-ssl";
 import EnvironmentPlugin from "vite-plugin-environment";
 
 import viteBaseConfig, { embedCoreEnvVars } from "../vite.config";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const path = require("node:path");
 const { defineConfig } = require("vite");
