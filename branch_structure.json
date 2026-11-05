@@ -1,0 +1,15 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "test/coderabbit-fork"
+  ],
+  "parent": {
+    "main": null,
+    "test/coderabbit-fork": "main"
+  },
+  "order": [
+    "main",
+    "test/coderabbit-fork"
+  ]
+}
